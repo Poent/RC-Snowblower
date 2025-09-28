@@ -12,6 +12,23 @@ Electronics design evolved in parallel. A custom controller board based on the E
 
 On the software side, development has focused on FreeRTOS-based task management, receiver input decoding (RadioMaster RP3 using CRSF), and CAN bus telemetry from the VESCs. Additional work includes LED logic, servo control, and the framework for telemetry feedback.
 
+# LATEST IMAGES
+<img width="1291" height="881" alt="2025-09-27_19h33_31" src="https://github.com/user-attachments/assets/318b8e4a-360e-4173-9989-3fcac77bbc0d" />
+
+https://github.com/user-attachments/assets/650a5006-1f4b-4bc9-95ec-501be674f5dc
+
+<img width="1550" height="1101" alt="image" src="https://github.com/user-attachments/assets/f9479501-ae14-4d79-8e38-910c436204a8" />
+
+![Sep 2025 Progress 02](https://github.com/user-attachments/assets/2a745e57-ded5-44e2-ac1e-f72b1d3ee798)
+![Sep 2025 Progress](https://github.com/user-attachments/assets/e22fb218-9336-470e-b98d-70cce07f2b9d)
+
+<img width="1699" height="1178" alt="2025-09-27_19h49_34" src="https://github.com/user-attachments/assets/39783cfe-64f6-49bb-95b7-1e906aa1ca03" />
+<img width="1898" height="1193" alt="2025-09-27_19h50_09" src="https://github.com/user-attachments/assets/8798c63b-fc5e-4480-bb8b-b5eb331ac1b5" />
+<img width="1362" height="876" alt="2025-09-27_19h51_03" src="https://github.com/user-attachments/assets/20652ad4-f598-415d-9c99-680e35195ad0" />
+![PCB-blanks](https://github.com/user-attachments/assets/06fd5483-3e57-429e-97d3-9684ec6308cc)
+![PCB-First-Boot](https://github.com/user-attachments/assets/9c4921ba-00f2-40e8-b488-200fb06e63de)
+
+
 **Completed:**
 - Chassis structure assembled with CNC aluminum frame and 3D-printed interconnects  
 - Power system finalized around Headway LiFePO₄ cells and JK BMS (150A).
