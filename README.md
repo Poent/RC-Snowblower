@@ -27,6 +27,7 @@ On the software side, development has focused on FreeRTOS-based task management,
 
 ![PCB-First-Boot](https://github.com/user-attachments/assets/9c4921ba-00f2-40e8-b488-200fb06e63de)
 
+# Progress
 
 **Completed:**
 - Chassis structure assembled with CNC aluminum frame and 3D-printed interconnects  
