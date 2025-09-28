@@ -14,9 +14,6 @@ On the software side, development has focused on FreeRTOS-based task management,
 
 # LATEST IMAGES
 <img width="1291" height="881" alt="2025-09-27_19h33_31" src="https://github.com/user-attachments/assets/318b8e4a-360e-4173-9989-3fcac77bbc0d" />
-
-https://github.com/user-attachments/assets/650a5006-1f4b-4bc9-95ec-501be674f5dc
-
 <img width="1550" height="1101" alt="image" src="https://github.com/user-attachments/assets/f9479501-ae14-4d79-8e38-910c436204a8" />
 
 ![Sep 2025 Progress 02](https://github.com/user-attachments/assets/2a745e57-ded5-44e2-ac1e-f72b1d3ee798)
