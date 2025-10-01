@@ -1,16 +1,46 @@
 # RC Snowblower Project
 
-A remote-controlled snowblower project combining mechanical engineering, electronics, and software development.
+<img width="1291" height="881" alt="2025-09-27_19h33_31" src="https://github.com/user-attachments/assets/318b8e4a-360e-4173-9989-3fcac77bbc0d" />
 
-## Project Status
+Hello everyone! Welcome to my crazy project.
 
-This project began with the idea of adapting a tracked rover platform into a functional snowblower. Early work focused on selecting high-torque BLDC motors, ordering them for measurement, and designing a custom gearbox around them. Test chassis and drive experiments followed, including track design and multiple iterations of 3D-printed components.
+Before diving into the details, here’s quick background on me and why I’m building this. Feel free to skip down to the status if you want the meat.
 
-Once the drivetrain was proven, attention shifted to CAD modeling in Fusion 360 and the integration of structural parts. A custom CNC aluminum frame was introduced, supported by interconnecting 3D-printed parts. Power requirements drove the selection of Headway 40152 LiFePO₄ cells (12S, 15 Ah, 75A continuous, 150A burst) configured in parallel packs.
+### Who I am
+I’m a tech leader in the OT/MSP space with ~15 years in IT services. I own our MSP tool stack, cybersecurity program, and AI/automation initiatives. I’m CISSP-certified and studied electrical engineering, game development/design, and aviation management in college. I have a wonderful wife and two kids, and my hobbies include art, design, programming, 3D printing, woodworking, and more.
 
-Electronics design evolved in parallel. A custom controller board based on the ESP32 was developed to manage motor controllers (VESC 75100 units via CAN bus), linear actuators for blower lift, and lighting. The board design includes modular connectors, fusing, and provisions for telemetry and expansion sensors. Several iterations in KiCad have refined power distribution and signal integrity.
+### How this project started
+About two years ago my wife sent me a video of the Yarbo snowblower. It’s a tracked outdoor platform with attachments for mowing, snowblowing, hauling, etc., and it can go fully autonomous with an RTK/GNSS setup. I loved it… until I saw it was about $5,000, which I can’t justify for a <15-foot driveway.
 
-On the software side, development has focused on FreeRTOS-based task management, receiver input decoding (RadioMaster RP3 using CRSF), and CAN bus telemetry from the VESCs. Additional work includes LED logic, servo control, and the framework for telemetry feedback.
+Then she sent a smiliar (but different) 3D-printed snowblower video. Once again I was hyped to look at building it, but the "basic" kit alone was about $4,000. My dreams were dashed again—but the seed was planted.... I’ve got experience with CAD, 3D printing, and electronics, so I decided to try building my own!
+
+That’s this project. While my BOM is under $4k... it is far more expensive than I initially anticipated and I have a far higher respect for those alternatives. 
+
+### What to expect here
+I can't honestly recommend anyone replicate this build. Better platforms exist, and I'm not an engineer! While I intend to make everything functional, resilient, and high quality... there WILL be problems. If you choose to follow along or, god forbid, try to build one of these yourself.... PLEASE understand what you're getting into. It WILL be a significant investment and there is NO garuntee of a working platform at the end of it. Please don't anticipate assistance of any kind if you choose to build this. BUT.... if you do... please tell me! I would love to see what other people do. I intend to make and keep this project fully open source, and I have no dreams of making this into a commercial product at any point in time. 
+
+For those of you that want to just check it out and/or follow along - then sit back, and enjoy the ride!
+
+
+## Status
+
+**Completed**
+- Chassis assembled with CNC aluminum frame and 3D-printed interconnects
+- Power system using Headway 40152 LiFePO₄ cells and JK BMS
+- V1 controller board designed, produced, soldered, and tested
+- Basic ESP32 firmware with CRSF input and VESC CAN telemetry
+- Initial drivetrain movement tests
+
+**In Progress**
+- Finalizing V1 firmware for the ESP32 and carrier board
+- Universal mount for the snowblower attachment
+- Track stress testing and refinement
+- Chassis cover design and integration (sealed against snow)
+
+**Planned**
+- Blower attachment design and integration
+- Public-ready docs for CAD, electronics, and firmware
+- BOM refinement for cost and reliability
 
 # LATEST IMAGES
 <img width="1291" height="881" alt="2025-09-27_19h33_31" src="https://github.com/user-attachments/assets/318b8e4a-360e-4173-9989-3fcac77bbc0d" />
