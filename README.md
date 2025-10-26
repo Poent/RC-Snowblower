@@ -2,9 +2,20 @@
 
 <img width="1291" height="881" alt="2025-09-27_19h33_31" src="https://github.com/user-attachments/assets/318b8e4a-360e-4173-9989-3fcac77bbc0d" />
 
+
+====
+LATEST UPDATES (10-26-2025):
+
+<img width="1889" height="921" alt="2025-10-26_12h57_35" src="https://github.com/user-attachments/assets/a649720f-3757-4a3b-9250-7696c619e3bc" />
+
+Working on designing the impeller and auger portion of the snowblower. Switched from using a worm gear assembly to a custom ring and pinion setup using a spiral bevel gear. Motor is a 190KV motor being driven at 38v nominal. Motor at full power (which we'll never do) will spin at about 7,200 RPM. the motor goes through a 3:1 reduction to the impeller. Impeller will spin at <2400 RPM. The impeller drives the input shaft of the auger gearbox, which has a 9:1 reduction. At full power that will result in the auger at about 250rpm. All of these are design maximums. The motor will likely be RPM limited to 60% total power in the VESC, more than halving all these totals. 
+
 Hello everyone! Welcome to my crazy project.
 
 Before diving into the details, here’s quick background on me and why I’m building this. Feel free to skip down to the status if you want the meat.
+
+=====
+
 
 ### Who I am
 I’m a tech leader in the OT/MSP space with ~15 years in IT services. I own our MSP tool stack, cybersecurity program, and AI/automation initiatives. I’m CISSP-certified and studied electrical engineering, game development/design, and aviation management in college. I have a wonderful wife and two kids, and my hobbies include art, design, programming, 3D printing, woodworking, and more.
